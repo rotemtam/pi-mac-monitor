@@ -1,0 +1,10 @@
+PyYAML==3.11
+argh==0.25.0
+argparse==1.2.1
+distribute==0.6.24
+pathtools==0.1.2
+-e git://github.com/mikexstudios/python-firebase.git@fc0597aafb1cb83c76e039370b1e0e180322f0e0#egg=python_firebase-dev
+requests==1.2.3
+simplejson==3.6.5
+watchdog==0.8.1
+wsgiref==0.1.2
