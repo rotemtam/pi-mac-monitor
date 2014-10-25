@@ -1,0 +1,16 @@
+<table class="table table-striped" ng-if="stations.length">
+	<thead>
+		<tr>
+			<th>Station MAC</th>
+			<th>First Seen</th>
+			<th>Last Seen</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="station in stations">
+			<td>{{station['station_mac']}}</td>
+			<td>{{station['first_time_seen']}}</td>
+			<td>{{station['last_time_seen']}}</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,2 @@
+angular.module('firebase.config', [])
+  .constant('FBURL', 'https://<your_app>.firebaseio.com');
